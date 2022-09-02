@@ -256,5 +256,62 @@ button svg {
   }
   */
 
-    
+.Home{
+  background:rgb(96, 138, 229);
+  font-weight: 500;
+  font-style:initial
+ 
+
+
+}
+.contact{
+
+background: rgb(96, 138, 229);
+column-gap: normal;
+text-align: center;
+  }
+
+.employee{
+  caret-color: blue;
+
+  }
+
+  .marquee {
+    background:rgb(23, 23, 24);
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 0px;
+    font-size: 30px;
+  }
+  .contact{
+    background: rgb(96, 138, 229);
+    color:black
+   
+
+
+  }
+
+  .iq{
+    font-weight: 500;
+  font-style:initial
+
+
+  }
+
+  h5{
+
+    text-align: left
+  }
+.eemployees{
+  background: blueviolet;
+}
+.marqueeiq {
+  background: rgb(28, 29, 32);
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding: 0px;
+  font-size: 30px;
   
+}

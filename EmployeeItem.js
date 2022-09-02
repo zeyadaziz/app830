@@ -2,6 +2,7 @@
 import React from 'react'
 import Card from '@mui/material/Card';
 import { styled } from '@mui/material/styles';
+import { blue } from '@mui/material/colors';
 
 const EmployeeItem = ({item}) => {
   
@@ -13,9 +14,11 @@ const Div = styled('div')(({ theme }) => ({
 
 
   return (
+    
     <Div>
+      
         <Card style={{width:"50%"}}>
-        <h3>Name of the employee :{item.employee_name}</h3>
+       <h3>Name of the employee :{item.employee_name}</h3>
         <h3>Salary :{item.employee_salary}</h3>
         <h3>Age :{item.employee_age}</h3>
         </Card>
